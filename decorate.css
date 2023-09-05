@@ -1,0 +1,333 @@
+*
+{
+    margin: 0%;
+    padding: 0%;
+    border-style: border-box;
+}
+.main
+{
+    width: 100%;
+    height: 7vh;
+    background-color:  rgb(232, 232, 230);
+    overflow: hidden;
+}
+.btn
+{
+    margin-inline: 15px;
+    transform: translate(350px,-30px);
+}
+.icons{
+    transform: translate(40px);
+    padding-top: 14px;  
+}
+#find
+{
+    border: none;
+    width: 8%;
+    transform:translate(650px,-25px);
+    font-style: italic;
+    background-color:transparent;
+    height: 3vh;
+}
+#discover
+{
+    transform: translate(650px,-25px);
+}
+.cname
+{
+    width: 100%;
+    height: 15vh;
+    background-color: rgb(255, 255, 255);
+    justify-content: center;
+    text-align: center;
+    padding-top: 35px;
+}
+.showbook
+{
+    width: 100%;
+    height: 80vh;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    
+}
+.looks
+{
+    height: 80vh;
+    width: 50%;
+    background-image: url(hanger.png);
+
+}
+.look
+{
+    height: 80vh;
+    width: 50%;
+    background-image: url(collection.png);
+    background-repeat: repeat;
+}
+.blog
+{
+    width: 100%;
+    height: 60vh;
+    background-color: rgb(232, 232, 230);
+    display: flex;
+    .summer
+    {
+        width: 30%;
+        height: 45vh;
+        background-color: rgb(255, 255, 255);
+        transform: translate(70px,70px);
+        padding-top: 220px;
+        color: grey;
+        padding-left: 2px;
+        border-style: solid;
+        border-color: rgb(0, 0, 0);
+        border-width: 1px;
+    }
+    .outfit
+    {
+        width: 17.5%;
+        height: 27vh;
+        background-color: rgb(255, 255, 255);
+        background-image: url(images.jpg);
+        margin-left: 100px;
+        margin-bottom: 100px;
+        transform: translate(-335px,75px);
+    }
+    #two
+    {
+        transform: translate(-153px,70px);
+        .spring{
+            height: 28vh;
+            width: 55%;
+            background-image: url(OIP.jpg);
+            background-color: rgb(255, 255, 255);
+            transform: translate(80px,-320px);
+            border-style: solid;
+            border-width: 10px;
+            border-color:rgb(235, 234, 231);
+        }
+    }
+    .dark
+    {
+        color: rgb(44, 44, 49);
+        font-weight:bolder;
+    }
+    #three
+    {
+        transform: translate(-80px,70px);
+        .shop
+        {
+            width: 99%;
+            height: 28vh;
+            /* background-color: black; */
+            transform: translate(1px,-296px);
+            background-image: url(Simple-Cover1.jpg);
+        }
+    }
+    
+}
+.posts
+{
+    width: 100%;
+    height: 17vh;
+    background-color: white;
+    text-align: center;
+    padding-top: 90px;
+}
+.intro
+{
+    width: 100%;
+    height: 40vh;
+    background-color: rgb(255, 255, 255);
+    text-align: center;
+    padding-top: 10px;
+    color: grey;
+    .darce
+    {
+        font-weight: bolder;
+        color: rgb(44, 44, 49);
+    }
+    .click{
+        transform: translate(-150px,50px);
+        background-color: transparent;
+        font-size: smaller;
+        border:none;
+    }
+    
+}
+.planner
+{
+    width: 100%;
+    height: 82vh;
+    background-color:  rgb(232, 232, 230);
+    .method{
+        width: 30%;
+        height: 65vh;
+        background-color: rgb(255, 255, 255);
+        transform: translate(820px,-620px);
+        .title
+        {
+            font-weight: bolder;
+            color:  rgb(44, 44, 49);
+            margin: 30px;
+        }
+        .plans{
+            margin: 30px;
+            color: grey;
+        }
+        #btn
+        {
+           background-color: rgb(255, 208, 0);
+           border: none;
+           width: 40%;
+           height: 5vh;
+            font-size: small;
+            color: rgb(101, 99, 99);
+            margin-left: 30px;
+        }
+        #btn:hover
+        {
+            background-color: grey;
+        }
+    }
+    .minimal{
+        transform: translate(-350px,-5px);
+    }
+    .concept
+    {
+        transform: translate(400px,-70px);
+    }
+}
+.ideas
+{
+    width: 100%;
+    height: 35vh;
+    background-color: rgb(255, 255, 255);
+}
+.tips
+{
+    background-color: rgb(232, 232, 230);
+    width: 100%;
+    height: 35vh;
+    display: flex;
+    .fall
+    {
+        background-image: url(Travelista-fall-europe-travel-capsule-carry-on-travel-px2s5zmctr5mpm53k1wunrfukljdlrb66g4bb41kym.jpg);
+        width: 30%;
+        height:50vh;
+        background-color: rgb(255, 255, 255);
+        background-repeat: no-repeat;
+        transform: translate(180px,-190px);
+    }
+    .down
+    {
+        width: 30%;
+        height:50vh;
+        background-color: rgb(255, 255, 255); 
+        background-image: url(Minimal-Download-Multiple-Phone-Mockup-1280-×-720-px-600-×-600-px-1080-×-1920-px-600-×-675-px2-q2sh6z6fmufjesdstnglph86trs4u0cpbtxfhbr80u.png);
+        transform: translate(220px,-187px);
+    }
+    .land
+    {
+        width: 30%;
+        height:50vh;
+        background-color: rgb(255, 255, 255);
+        background-image: url(travelista_winter-layering-scaled-q0nu2phls5ip0o8i5glb5md6h06dog0cajlxb2rr6m.jpg);
+        transform: translate(260px,-187px);
+    }
+    #blue
+    {
+        background-color: rgb(119, 183, 191);
+        transform: translate(-730px,170px);
+        height: 5vh;
+        font-size: small;
+        border: none;
+        color: rgb(66, 60, 60);
+        width: 13%;
+    }
+    #brown
+    {
+        transform: translate(-285px,170px);
+        height: 5vh;
+        font-size: small;
+        border: none;
+        color: rgb(66, 60, 60);
+        width: 15%;
+        background-color: rgb(119, 183, 191);
+    }
+    #yellow
+    {
+        height: 5vh;
+        font-size: small;
+        border: none;
+        color: rgb(66, 60, 60);
+        width: 17%;
+        background-color: rgb(255, 208, 0);
+        transform: translate(-510px,170px);
+    }
+
+}
+.list
+{
+    width: 100%;
+    background-color: white;
+    height: 30vh;
+    text-align: center;
+    padding-top: 20px;
+}
+.shade{
+    color:rgb(49, 49, 59) ;
+}
+p
+{
+    color: gray;
+    font-size: larger;
+}
+.register
+{
+    height: 7vh;
+    width: 15%;
+    padding-left: 10px;
+    margin-right: 40%;
+    color: rgb(29, 27, 27);
+    border-style: solid;
+    border-color: black;
+    border-width: 1px;
+}
+#to
+{
+    transform: translate(230px,-53px);
+}
+#it
+{
+    transform: translate(540px,-106px);
+}
+.enter
+{
+    height: 7vh;
+    color: white;
+    width: 10%;
+    border-style: solid;
+    border-color: rgb(0, 0, 0);
+    background-color: rgb(119, 183, 191);
+    border-width: 2px;
+    transform: translate(-40px,-107px);
+    border-width: 1px;
+}
+.end
+{
+    width: 100%;
+    height: 20vh;
+    background-color: rgb(232, 232, 230) ;
+    text-align: center;
+    padding-top: 20px;
+    font-weight: 200;
+}
+.fotter{
+    width: 100%;
+    height: 10vh;
+}
+.advertise{
+    transform: translate(120px,-70px); 
+    padding-inline: 7px;  
+}
